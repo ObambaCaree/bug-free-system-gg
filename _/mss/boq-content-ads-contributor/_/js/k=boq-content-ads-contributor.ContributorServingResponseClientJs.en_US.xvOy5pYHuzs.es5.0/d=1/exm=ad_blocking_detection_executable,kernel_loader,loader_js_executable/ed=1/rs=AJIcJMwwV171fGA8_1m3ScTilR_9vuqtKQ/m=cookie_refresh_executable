@@ -1,1 +1,69 @@
+if (typeof __googlefc.fcKernelManager.run === 'function') {
+    "use strict";
+    this.default_ContributorServingResponseClientJs = this.default_ContributorServingResponseClientJs || {};
+    (function(_) {
+        var window = this;
+        try {
+            var Dn = function(a) {
+                this.j = _.v(a)
+            };
+            _.y(Dn, _.J);
+            var En = function(a) {
+                this.j = _.v(a)
+            };
+            _.y(En, _.J);
+            En.prototype.getWhitelistStatus = function() {
+                return _.H(this, 2)
+            }
+            ;
+            var Fn = function(a) {
+                this.j = _.v(a)
+            };
+            _.y(Fn, _.J);
+            var Gn = _.w(Fn)
+              , Hn = function(a, b, c) {
+                this.u = a;
+                this.g = _.D(b, Dn, 1);
+                this.h = _.D(b, _.pk, 3);
+                this.s = _.D(b, En, 4);
+                this.o = _.gf(this.g, 2) && "" !== _.P(this.g, 2) ? _.P(this.g, 2) : this.u.location.hostname;
+                a = new _.Gg(_.qk(this.h));
+                this.l = new _.Sg(_.r.document,this.o,a);
+                this.i = new _.zn(c,a)
+            };
+            Hn.prototype.run = function() {
+                if (_.P(this.g, 3)) {
+                    var a = this.l
+                      , b = _.P(this.g, 3)
+                      , c = _.Ug(a)
+                      , d = new _.Jg;
+                    b = _.df(d, 1, b);
+                    c = _.F(c, 1, b);
+                    _.$g(a, c)
+                } else
+                    _.Xg(this.l, "FCNEC");
+                _.Bn(this.i, _.D(this.h, _.ke, 1), this.h.getDefaultConsentRevocationText(), this.h.getDefaultConsentRevocationCloseText(), this.h.getDefaultConsentRevocationAttestationText(), this.o);
+                _.Cn(this.i, _.H(this.s, 1), this.s.getWhitelistStatus())
+            }
+            ;
+            var In = function() {};
+            In.prototype.run = function(a, b, c) {
+                var d;
+                return _.A(function(e) {
+                    d = Gn(b);
+                    (new Hn(a,d,c)).run();
+                    return e.return({})
+                })
+            }
+            ;
+            _.tk(7, new In);
+        } catch (e) {
+            _._DumpException(e)
+        }
+    }
+    ).call(this, this.default_ContributorServingResponseClientJs);
+    // Google Inc.
 
+    //# sourceURL=/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.xvOy5pYHuzs.es5.O/d=1/exm=ad_blocking_detection_executable,kernel_loader,loader_js_executable/ed=1/rs=AJlcJMwwV171fGA8_1m3ScTilR_9vuqtKQ/m=cookie_refresh_executable
+    __googlefc.fcKernelManager.run('\x5b\x5b\x5b7,\x22\x5b\x5bnull,\\\x22educationbluesky.com\\\x22,\\\x22AKsRol8YIekw1hr6YG2CqeleOjSq_hHLg-OzYBYkZlvMlIBQWHdLpkrXuz3Xa8yNW6zUdhTrEZ59M81lgQtUGFUOw4C8N44FPE0Gbje3KI4NGKLdUAvXal5Tnrh_YemdSYep5vJx_Y00Z41eWxA006hPbMNwXqu96g\\\\u003d\\\\u003d\\\x22\x5d,null,\x5b\x5bnull,null,null,\\\x22https:\/\/fundingchoicesmessages.google.com\/f\/AGSKWxUExcfxb9nH-e5zz-n6c4Op7PmyHVONyE5TQ4sreulLYCKyz5nIA731lZjK2spO4ZldSShBfnB_mcK_7-FDKBKoGTg95oyC1K6V4m3w3DCRa7xk18RQF89stLF1jjHeCnZ3LJP44w\\\\u003d\\\\u003d\\\x22\x5d,null,null,\x5bnull,null,null,\\\x22https:\/\/fundingchoicesmessages.google.com\/el\/AGSKWxVA0ZCB4n36BlyQRfiNkINFp0Nw9bleggFqUfaNW7_-JKwukKO8iROhoanxgENHuoVQSYfrhFcdgh0eAKwWy-QoGJrS8rRD8VkHhXMPy-XOLFfFp94mNQFmYiqIwe0q2PN2gm_VjA\\\\u003d\\\\u003d\\\x22\x5d,null,\x5bnull,\x5b7,6\x5d,null,null,null,null,null,null,null,null,null,1\x5d,null,null,null,null,null,\\\x22a99e9b5d6a091fc9\\\x22,null,\x5bnull,null,null,\\\x22https:\/\/fundingchoicesmessages.google.com\/_\/ContributorServingWebSwitchboardHttp\/jserror\\\x22\x5d\x5d,\x5b3,1\x5d\x5d\x22\x5d\x5d,\x5bnull,null,null,\x22https:\/\/fundingchoicesmessages.google.com\/f\/AGSKWxVtHne3R9C3ifyYD_DD44aFLWvcR2ydD8NhP0QnyYCI-IuNgo36p9vkgOl-lW-P8XDTTSCZ7_fdrK5xSBSa8-A1I_rMSk3d0G2cN63bRAmBsl408iXEHypUyDF_UDLknGwlwbDAdg\\u003d\\u003d\x22\x5d,\x5bnull,null,null,\x22https:\/\/fundingchoicesmessages.google.com\/el\/AGSKWxWuvw-IMFyi-Se2jFMiduqR_O175X17cnG22DODcu0_QmC11AOoqubGZytLMQJEX4nJqIYTtTtZNcR1ta94tXGFGohHRsHe3tWVCJEXs8ADAeFTY0WxIwAzqKN3i4mbQAVfBi_ACg\\u003d\\u003d\x22\x5d\x5d');
+}
